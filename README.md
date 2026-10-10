@@ -1,5 +1,7 @@
 # Quicky
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAbdulMunemulTalha%2Fquicky&env=PUBLIC_URL,BACKEND_URL,SUPABASE_URL,SUPABASE_ANON_KEY,DATABASE_URL,META_APP_ID,META_APP_SECRET,META_VERIFY_TOKEN,META_GRAPH_VERSION,TOKEN_ENCRYPTION_KEY&envDescription=Configure%20Quicky%20Environment%20Variables)
+
 One inbox for Facebook Page, Instagram and WhatsApp orders, built for social-commerce sellers in Bangladesh.
 
 - **One dashboard for every channel.** Messages from Messenger, Instagram DMs and the WhatsApp Business number arrive in one list. A reply goes back to the app the customer wrote from.
