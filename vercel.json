@@ -1,0 +1,58 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/public/index.html"
+    },
+    {
+      "source": "/app",
+      "destination": "/public/app.html"
+    },
+    {
+      "source": "/bn",
+      "destination": "/public/bn.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/public/privacy.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/public/terms.html"
+    },
+    {
+      "source": "/data-deletion",
+      "destination": "/public/data-deletion.html"
+    },
+    {
+      "source": "/app.js",
+      "destination": "/public/app.js"
+    },
+    {
+      "source": "/style.css",
+      "destination": "/public/style.css"
+    },
+    {
+      "source": "/landing.css",
+      "destination": "/public/landing.css"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://api.heyquicky.com/api/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://api.heyquicky.com/auth/:path*"
+    },
+    {
+      "source": "/webhooks/:path*",
+      "destination": "https://api.heyquicky.com/webhooks/:path*"
+    },
+    {
+      "source": "/healthz",
+      "destination": "https://api.heyquicky.com/healthz"
+    }
+  ]
+}
