@@ -53,6 +53,10 @@
     {
       "source": "/healthz",
       "destination": "https://api.heyquicky.com/healthz"
+    },
+    {
+      "source": "/socket.io/:path*",
+      "destination": "https://api.heyquicky.com/socket.io/:path*"
     }
   ]
 }
